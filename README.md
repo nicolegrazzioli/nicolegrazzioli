@@ -10,7 +10,7 @@
 
 ### Cursos
 
-📓 Machine Learning Specialization, DeepLearning.AI - [anotações](https://github.com/nicolegrazzioli/machine-learning-coursera/blob/main/README.md)
+📓 Machine Learning Specialization, Coursera - [anotações](https://github.com/nicolegrazzioli/machine-learning-coursera/blob/main/README.md)
 
 📓 HarvardX CS50 (2025) - em andamento 
 
@@ -26,34 +26,58 @@
 
 ### Projetos
 #### 📚 API RESTful de Gerenciamento de Biblioteca, 2025 - [backend](https://github.com/nicolegrazzioli/biblioteca3.0/tree/main) | [frontend](https://github.com/nicolegrazzioli/front-avaliadordeprojetos/tree/segunda_entrega)
-_Desenvolvimento de Software Full-stack | Java 17, Spring Boot 3, Spring Security, PostgreSQL, TypeScript (Angular)_
+_Java 17, Spring Boot 3, Spring Security, PostgreSQL, TypeScript (Angular)_
 - Desenvolvimento de uma API com autenticação JWT e controle de acesso baseado em funções (RBAC)
 - Versionamento de banco de dados com Flyway e documentação interativa via Swagger (OpenAPI)
-- Utilização de IA Generativa para prototipagem acelerada do frontend, otimizando a validação das rotas e a experiência do usuário (UX)
 
 #### 🎓 Sistema de Análise de Risco de Evasão, 2025 - [códigos](https://github.com/CTISM-Prof-Henry/trab-final-spi-meninasmalvadas/tree/main/Evas%C3%A3o360%C2%B0) | [documentação](https://ctism-prof-henry.github.io/trab-final-spi-meninasmalvadas/)
-_Engenharia de Software | Java 21, Spring Boot, PMD, MkDocs_
+_Java 21, Spring Boot, PMD, MkDocs_
 - Desenvolvimento em equipe de uma plataforma para detecção de evasão escolar com geração de relatórios em PDF (dados fictícios gerados por IA)
 - Arquitetura e Qualidade: Implementação de linters (PMD), gestão ágil (Kanban) e documentação técnica 
-- Workflow otimizado com IA para geração de boilerplate, permitindo foco total nas regras de negócio 
 
 #### ♾️ Infraestrutura e Pipeline CI/CD, 2025
-_DevOps & Automação | Docker, GitLab CI/CD, Linux (Ubuntu), VirtualBox_
+_Docker, GitLab CI/CD, Linux (Ubuntu), VirtualBox_
 - Containerização de aplicações utilizando Docker e Docker Compose
 - Configuração de pipeline de Integração Contínua no GitLab, automatizando o deploy em ambiente virtualizado através de runners e tokens de acesso
-- Uso estratégico de IA para acelerar a curva de aprendizado em ferramentas de automação e infraestrutura
 
-#### 🏛️ Fundamentos de Ciência da Computação (HarvardX CS50), 2025
-_Algoritmos, estrutura de dados e performance | SQL, C, Python_
-- SQL (investigação de Dados): Processamento e cruzamento de grandes volumes de dados utilizando JOINs e Subqueries para resolução de problemas lógicos complexos
-- C (Gerenciamento de Memória): Implementação de um corretor ortográfico (Hash Tables & Tries) e algoritmos de processamento de imagem (filtros BMP e recuperação de dados)
-- Python (Lógica e Dados): Desenvolvimento de scripts para análise de DNA (regex e busca de padrões), validadores financeiros (Algoritmo de Luhn) e processamento de linguagem natural
+#### 🏛️ Investigação e Análise de Dados, 2025
+_SQL_
+- O pato do CS50 foi roubado! 
+- A partir de uma base de dados SQLite com 10 tabelas, filtrei os resultados utilizando JOINs, subqueries e tabelas temporárias para identificar o ladrão, o cúmplice e o destino da fuga
+
+#### Identificador de Pessoas por meio de DNA
+_Python_
+- Desenvolvi um identificador de perfis genéticos comparando sequências de DNA com um banco de dados
+- Em cada execução, o programa calcula a maior sequência consecutiva de repetições de diversos STRs (short tandem repeats) em um arquivo de texto
+- Cruza os valores calculados com os dados de um arquivo CSV e imprime o nome da pessoa ou "No match"
+
+#### Validação de Cartão de Crédito (Algoritmo de Luhn)
+_Python_
+- Desenvolvi um programa que solitica um número de cartão de crédito, valida-o usando o Algoritmo de Luhn e identifica a bandeira (AMEX, MASTERCARD, VISA), ou imprime "INVALID"
+
+#### Nível de escolaridade de textos (Fórmula de Coleman-Liau)
+_Python_
+- Desenvolvi um programa que calcula o nível de leitura de um texto com base na fórmula de Coleman-Liau
+- Conta letras, palavras e frases, aplica a fórmula e indica o ano escolar ideal
+
+#### Corretor Ortográfico
+_C_
+- Utilizando Hash Tables e Tries, o programa verifica a ortografia de um texto, carregando um dicionário para a memória e comparando palavra por palavra
+- Imprime as palavras que não estão no dicionário (passado como parâmetro)
+- Gerencia a memória
+
+#### Filtros de Imagem BMP
+_C_
+- a
+
+#### Recuperação de arquivos JPEG de disco
+_C_
+- a
 
 #### 💬 Chat P2P, 2025
 _Sistemas Distribuídos & Redes | Java, UDP, Multithreading_
 - Desenvolvimento de uma aplicação de mensagens descentralizada (P2P) com descoberta automática de usuários via algoritmos de sonda (Radar UDP)
 - Implementação de sessões simultâneas de chat e gerenciamento de estado em tempo real (on-line/off-line) através de broadcast na sub-rede
-- Uso de IA como assistente técnico para a implementação acelerada de protocolos de rede de baixo nível e tratamento de concorrência, garantindo a entrega de um sistema funcional sob prazos curtos
 
 #### ☑️ Interface Interativa de Tarefas (To-Do List), 2025 - [vercel](https://todo-list-react-lemon-ten.vercel.app/) | [códigos](https://github.com/nicolegrazzioli/todo-list-react)
 _JavaScript_
