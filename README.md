@@ -97,3 +97,28 @@ _PHP, MySQL, HTML, CSS, JS_
 - Projeto de fundamentos focado na arquitetura cliente-servidor e persistência de dados, consolidando conceitos de backend e modelagem de banco de dados sob mentoria técnica
 - As aplicações não são responsivas
 
+
+-------------
+enviar aquivos do PC para repo
+1. criar repositorio vazio no github, depois tudo no terminal do pc
+2. inicia repo local
+```bash
+git init
+```
+3. adiciona os arquivos e commita
+```bash
+git add .
+git commit -m "primeiro commit"
+```
+4. define a branch principal como 'main'
+```bash
+git branch -M main
+```
+5. conecta o PC ao GitHub (Cole a URL aqui)
+```bash
+git remote add origin https://github.com/usuario/projeto.git
+```
+6. envia os arquivos
+```bash
+git push -u origin main
+```
