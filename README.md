@@ -8,6 +8,8 @@
 
 -------
 
+- [Portfólio](https://www.figma.com/proto/NnBQcDDOWs0HmWA81FaNSv/design-portfolio?node-id=143-2&t=46tb7a55eghlqBrD-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=143%3A2)
+
 ### Cursos
 
 📓 Machine Learning Specialization, Coursera - [anotações](https://github.com/nicolegrazzioli/machine-learning-coursera/blob/main/README.md)
